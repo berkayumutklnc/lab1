@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML ODEVI</title>
+	
+</head>
+<body bgcolor="#FFCC99"><center>
+	<font face="verdana" size="10" color="#CC0000"> MERHABALAR HOŞGELDİNİZ</font></center>
+    <br><br><br><br><br><br>
+	<div>
+		<br><br><!-- Renk kodlarına bakmayı unutma-->
+		<font face="verdana" size="6" color="#000000"><center>
+		LÜTFEN GİRİŞ YAPINIZ!
+		</font></center>
+	</div>
+	<br><br>
+	<div >
+	<table align="center" border="5px black">
+		<tr>
+			<td> <label for="fname">ADINIZ :   </label> </td>
+			<td> <input tbaype="text" id="fname" name="fname"><br> </td>
+		</tr>
+		<tr>
+			<td><label for="lname">SOYADINIZ :</label></td>
+            <td><input type="text" id="lname" name="lname"><br></td>
+		</tr>
+		<tr>
+			<td> <label for="e-mail">E-MAİLİNİZ :</label> </td>
+			<td> <input type="e-mail" id="e-mail" name="e-mail"><br> </td>
+		</tr>
+		<tr>
+			<td><label for="sifre">SİFRENİZ :</label></td>
+            <td><input type="password" id="sifre" name="sifre"><br></td>
+		</tr>
+		<tr>
+			<td><button style="background-color:white-space" style="width:50;height:100" type="button" onclick="alert('BAŞARILI GİRİŞ!')">GİRİŞ</button></td><td><input type="submit" value="Kayıt OL" onclick="window.location='http://google.com';" /></td>
+		</tr>
+</div>
+</body>
+</html>
